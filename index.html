@@ -35,14 +35,14 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
+            background: rgba(0, 0, 0, 0.5);
             z-index: 1;
         }
         header h1,
         header p,
         header .btn {
             position: relative;
-            z-index: 2; /* Ensure text is above overlay */
+            z-index: 2;
         }
         header h1 {
             font-family: 'Playfair Display', serif;
@@ -122,6 +122,16 @@
             text-decoration: none;
             font-weight: 600;
         }
+        .certifications {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px auto;
+        }
+        .certifications img {
+            height: 50px;
+            object-fit: contain;
+        }
         footer {
             background: #121212;
             color: #ccc;
@@ -183,6 +193,12 @@
         <div class="contact">
             <p><strong>Phone:</strong> <a href="tel:+14164565953">416-456-5953</a></p>
             <p><strong>Email:</strong> <a href="mailto:CDNMotors@outlook.com">CDNMotors@outlook.com</a></p>
+        </div>
+
+        <!-- Certifications -->
+        <div class="certifications">
+            <img src="https://www.ucda.org/wp-content/uploads/2020/12/UCDA_Member_Logo-1.gif" alt="UCDA Logo"/>
+            <img src="https://www.omvic.ca/wp-content/uploads/2023/08/OMVIC_Decal_SaferWay.jpeg" alt="OMVIC Logo"/>
         </div>
     </section>
 
