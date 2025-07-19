@@ -4,20 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CDN Motors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            text-align: center; 
-            padding: 50px; 
-            background: #f8f8f8; 
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
         }
-        h1 { color: #333; }
-        a { color: #007BFF; text-decoration: none; font-size: 18px; }
+        header {
+            background: #1c1c1c;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            margin: 0;
+            color: #e6e6e6;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #ccc;
+        }
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        section p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .contact {
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        .contact a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        footer {
+            background: #1c1c1c;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to CDN Motors</h1>
-    <p>Your trusted car dealership in Ontario, Canada.</p>
-    <p>Contact us: <a href="mailto:info@cdnmotors.ca">info@cdnmotors.ca</a></p>
+    <header>
+        <h1>CDN Motors</h1>
+        <p>Your trusted car dealership in Ontario, Canada</p>
+    </header>
+
+    <section>
+        <h2>Welcome to CDN Motors</h2>
+        <p>
+            At CDN Motors, we provide a wide range of quality vehicles with a focus on exceptional customer service. 
+            Whether you’re looking for your next car or need expert advice, our team is here to help you every step of the way.
+        </p>
+
+        <div class="contact">
+            <p><strong>Phone:</strong> <a href="tel:+14164565953">416-456-5953</a></p>
+            <p><strong>Email:</strong> <a href="mailto:CDNMotors@outlook.com">CDNMotors@outlook.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 CDN Motors. All rights reserved.
+    </footer>
 </body>
 </html>
